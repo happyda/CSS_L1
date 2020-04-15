@@ -1,0 +1,122 @@
+body {
+    margin:0;
+    font-family: 'Lato' ,sans-serif;
+    color: floralwhite;
+}
+
+img {
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+h1 span {
+    color: burlywood;
+}
+
+/* Typography */
+
+h2 {
+    font-size: 24px;
+    color: #ef5839
+}
+
+header {
+    background: whitesmoke;
+    padding: 45px 0;
+}
+
+.container {
+    max-width: 980px;
+    color: black;
+    font-size: 1.2rem;
+    width: 95%;
+    margin: 0 auto;
+}
+ 
+.column {
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.col {
+    border: 2px rgb(238, 232, 232) solid;
+    border-radius: 15px;
+    /*box-shadow: 1px 1px 5px 5 #888888; */
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    padding: 0.5em;
+    margin-bottom: 1em;
+}
+
+
+.col-1 {
+    width: 20%;
+}
+
+.col-2 {
+    width: 45%;
+}
+
+.col-3 {
+    width: 70%;
+}
+
+
+.right-col {
+
+    background-color: rgb(63, 60, 60);
+    color: blanchedalmond;
+
+}
+
+@media screen and (max-width: 768px) {
+
+    img {
+        width: 100%;
+        margin-left: auto;
+        margin-left: auto;
+    }
+    .column {
+        width: 95%;
+        flex-direction:  column;
+    }
+    .col-1,
+    .col-2,
+    .col-3
+     {
+        padding: 0 0 1em 0;
+        width: 100%;  
+        margin: 0.25em 0;
+        padding: 1em 0.5em;    
+    }
+
+}
+/* Buttons */
+/*
+.btn {
+    display: inline-block;
+    padding: 10px 25px;
+    text-decoration: none;
+}
+
+.btn-accent {
+     background: #ef5839;
+     color: #fff;
+}
+
+.btn-accent:hover {
+    background: #d4b44c;
+    color:#2e354f ;
+}
+
+.btn-white:hover {
+    background: #999;
+    color:#2e354f ;
+} */
+
+/* Layout */
+
+
